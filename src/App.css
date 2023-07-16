@@ -1,0 +1,29 @@
+@font-face {
+  font-family: BeaufortforLOL;
+  src: url(/public/font/BeaufortforLOL-BoldItalic.woff);
+}
+
+/* @font-face {
+	font-family: myFont;
+	src: url(/public/fonts/PrettyGirl.ttf);
+} */
+
+body {
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  background-image: url(https://lolg-cdn.porofessor.gg/img/s/bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: BeaufortforLOL;
+}
+
+body h2 {
+  align-self: center;
+}
+
+.container {
+  display: flex;
+  width: 90vw;
+}

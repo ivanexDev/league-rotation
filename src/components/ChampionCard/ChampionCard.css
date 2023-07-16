@@ -1,0 +1,25 @@
+.championcard-container {
+  box-sizing: border-box;
+  overflow: hidden;
+
+  width: 0px;
+  flex-grow: 1;
+  cursor: pointer;
+  object-fit: cover;
+
+  transition: 1s ease;
+}
+
+.championcard-container:hover {
+  z-index: 1;
+  width: 300px;
+  transform: scale(1.2);
+}
+
+.championcard-image {
+  width: 350px;
+  height: 337px;
+  object-fit: cover;
+  object-position: 70% 0;
+  transition: all 1s;
+}
