@@ -12,9 +12,10 @@ const ChampionCard: React.FC<ChampionCardProps> = ({ data }) => {
   if (data.name === "Bel'Veth") {
     fixedName = 'Belveth';
   } else {
-    fixedName = data.name.replace("'", '');
+    fixedName = data.name.replace(/[' ]/g, '');
   }
 
+  console.log(fixedName);
   const imgUrl = `https://ddragon.leagueoflegends.com/cdn/img/champion/splash/${fixedName}_0.jpg`;
 
   return (

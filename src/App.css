@@ -3,6 +3,11 @@
   src: url(/public/font/BeaufortforLOL-BoldItalic.woff);
 }
 
+@font-face {
+  font-family: LOLfont;
+  src: url(/public/font/League.otf);
+}
+
 /* @font-face {
 	font-family: myFont;
 	src: url(/public/fonts/PrettyGirl.ttf);
@@ -10,17 +15,17 @@
 
 body {
   display: flex;
-  min-height: 100vh;
+  height: 100vh;
   align-items: center;
   justify-content: center;
   background-image: url(/public/bg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  font-family: BeaufortforLOL;
+  font-family: LOLfont;
 }
 
 body h1 {
-  color: rgb(219, 219, 114);
+  color: rgb(193, 157, 81);
   font-size: 3rem;
   text-shadow: 3px 3px 5px black;
 }
